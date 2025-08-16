@@ -17,7 +17,7 @@ function App() {
         <div className="container">
           <Router>
             <Routes>
-              <Route path="/" element={<HomePage />} />
+              <Route path="/" element={<MathWorkSheet />} />
               <Route path="/mathworksheet" element={<MathWorkSheet />} />
             </Routes>
           </Router>
