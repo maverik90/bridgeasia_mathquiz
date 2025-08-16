@@ -1,0 +1,27 @@
+
+.header-container{
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+nav {
+  background-color: #f8f9fa;
+  padding: 1rem;
+}
+
+nav a {
+  color: #007bff;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+  background-color: #e9ecef;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
