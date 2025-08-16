@@ -8,7 +8,8 @@
     "test": "jest",
     "mock": "json-server --watch ./db.js --config ./config.json",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build": "react-scripts build"
   },
   "keywords": [],
   "author": "",
