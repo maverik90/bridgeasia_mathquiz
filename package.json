@@ -1,37 +1,23 @@
 {
-  "name": "frontend app",
+  "name": "bridgeasia_mathquiz",
   "version": "1.0.0",
-  "description": "",
+  "description": "BridgeAsia Math Quiz Application",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "test": "jest",
-    "mock": "json-server --watch ./db.js --config ./config.json"
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "bootstrap": "^5.3.7",
-    "json-server": "^0.17.0",
-    "react-bootstrap": "^2.10.10",
-    "react-router-dom": "^7.8.0",
-    "yup": "^0.32.11"
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.28.0",
-    "@babel/preset-env": "^7.28.0",
-    "@babel/preset-react": "^7.27.1",
-    "@faker-js/faker": "^7.5.0",
-    "@testing-library/jest-dom": "^6.7.0",
-    "@testing-library/react": "^16.3.0",
-    "babel-core": "^7.0.0-bridge.0",
-    "babel-jest": "^30.0.5",
-    "css-loader": "^7.1.2",
-    "identity-obj-proxy": "^3.0.0",
-    "jest": "^27.5.1",
-    "react-scripts": "^5.0.1",
-    "style-loader": "^4.0.0"
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3"
   },
   "browserslist": {
     "production": [
