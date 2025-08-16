@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bridgeasia_mathquiz/static/css/main.f1b0df18.css",
+    "main.js": "/bridgeasia_mathquiz/static/js/main.4b897c98.js",
+    "index.html": "/bridgeasia_mathquiz/index.html",
+    "main.f1b0df18.css.map": "/bridgeasia_mathquiz/static/css/main.f1b0df18.css.map",
+    "main.4b897c98.js.map": "/bridgeasia_mathquiz/static/js/main.4b897c98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1b0df18.css",
+    "static/js/main.4b897c98.js"
+  ]
+}
