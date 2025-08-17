@@ -88,10 +88,13 @@ const MathWorkSheet = () => {
     setShowResult(true);
 
     // Scroll to the result section
-    const resultSection = document.querySelector('.alert-success');
-    if (resultSection) {
-      resultSection.scrollIntoView({ behavior: 'smooth' });
-    }
+    setTimeout(() => {
+      const resultSection = document.querySelector('.alert-success');
+      if (resultSection) {
+        resultSection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 100);
+
   };
 
   return (
@@ -140,6 +143,11 @@ const MathWorkSheet = () => {
               </div>
             ))}
           </div>
+          <div className="row">
+            <div className="container text-center">
+              <p>copyright: www.mathinenglish.com</p>
+            </div>
+          </div>
           <div className="text-center">
             <button type="submit" className="btn btn-primary mt-3">Submit</button>
             <button
@@ -155,6 +163,7 @@ const MathWorkSheet = () => {
               Reset
             </button>
           </div>
+
         </form>
         {showResult && (
           <div className="alert alert-success mt-4 text-center">

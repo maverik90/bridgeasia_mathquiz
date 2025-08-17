@@ -1,12 +1,11 @@
 {
+  "homepage": "https://maverik90.github.io/bridgeasia_mathquiz",
   "name": "BridgeAsia MathQuiz App",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "start": "react-scripts start",
-    "test": "jest",
-    "mock": "json-server --watch ./db.js --config ./config.json",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build"
