@@ -4,7 +4,6 @@ import '../assets/styles/Header.css';
 const Header = () => (
   <div>
     <h1>BridgeAsia Assessment</h1>
-
   </div>
 ); 
 
